@@ -7,3 +7,11 @@ color: blue;
 h3 {
 color: blue;
 }
+header {
+background-color: yellow;
+}
+ul.nav {
+	list-style-type: square;
+	background-color: green;
+}
+	
