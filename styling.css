@@ -1,5 +1,5 @@
 h1 {
-color: red;
+color: black;
 }
 h2 {
 color: blue;
@@ -8,10 +8,18 @@ h3 {
 color: blue;
 }
 header {
-background-color: yellow;
+background-color: green;
 }
 ul.nav {
 	list-style-type: square;
-	background-color: green;
+	background-color: grey;
 }
-	
+
+header.resume {
+	padding-top: 5%
+	text-align: center;
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
