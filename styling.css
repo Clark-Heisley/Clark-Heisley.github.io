@@ -8,11 +8,11 @@ h3 {
 color: blue;
 }
 header {
-background-color: green;
+background-color: yellow;
 }
 ul.nav {
 	list-style-type: square;
-	background-color: grey;
+	background-color: orange;
 }
 
 header.resume {
