@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <text>
   <frontmatter>
-CHAPTER VI
 
-<title>EMOTIONS</title>
+<chapter n="6">CHAPTER VI</chapter n="6">
+<chapterHeader>
+<chapterTitle>EMOTIONS</chapterTitle>
+</chapterHeader>
 
 <author>BY: HUGO MUNSTERBERG</author>
 
@@ -78,10 +80,10 @@ demand a jumping from one emotional climax to another, or rather the
 appearance of such extreme expressions where the content of the play
 hardly suggests such heights and depths of emotion. The soft lights are
 lost and the mental eye becomes adjusted to glaring flashes. This
-undeniable defect is felt with the American actors still more than with
-the European, especially with the French and Italian ones with whom
+undeniable defect is felt with the <group>American</group> actors still more than with
+the European, especially with the <group>French</group> and <group>Italian</group> ones with whom
 excited gestures and highly accentuated expressions of the face are
-natural. A New England temperament forced into Neapolitan expressions of
+natural. A <place type="region" name="New England">New England</place> temperament forced into Neapolitan expressions of
 hatred or jealousy or adoration too easily appears a caricature. It is
 not by chance that so many strong actors of the stage are such more or
 less decided failures on the screen. They have been dragged into an art
@@ -343,14 +345,15 @@ camera.</p>
 
 <break type="chapter"></break>
 
-PART II
+<section>PART II</section>
 
-THE ESTHETICS OF THE PHOTOPLAY
+<title>THE ESTHETICS OF THE PHOTOPLAY</title>
 
-CHAPTER VII
+<chapter n="7">CHAPTER VII</chapter n="7">
 
-THE PURPOSE OF ART
-
+<chapterHeader>
+<chapterTitle>THE PURPOSE OF ART</chapterTitle>
+</chapterHeader>
 
 <p>We have analyzed the mental functions which are most powerful in the
 audience of the photoplay. We studied the mere act of perceiving the
@@ -435,7 +438,7 @@ imagination have shifted and remodeled the events until they look as
 nature could never show them. What we really see can hardly be called
 any longer an imitation of the world, such as the theater gives us.</p>
 
-<p>When the graphophone repeats a Beethoven symphony, the voluminousness of
+<p>When the graphophone repeats a <place type="music" name="Beethhoven">Beethoven</place> symphony, the voluminousness of
 the orchestra is reduced to a thin feeble surface sound, and no one
 would accept this product of the disk and the diaphragm as a full
 substitute for the performance of the real orchestra. But, after all,
@@ -472,7 +475,7 @@ to give us the essentials of the real stage.</p>
 surely lingered for a long while in the minds of all those who had a
 serious relation to art. It probably still prevails today among many,
 even if they appreciate the more ambitious efforts of the
-photoplaywrights in the most recent years. The philanthropic pleasure in
+photoplaywrights in the most recent years. The <define>philanthropic</define>pleasure in
 the furnishing of cheap entertainment and the recognition that a certain
 advance has recently been made seem to alleviate the esthetic situation,
 but the core of public opinion remains the same; the moving pictures are
