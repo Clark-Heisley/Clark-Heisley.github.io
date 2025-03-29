@@ -7,7 +7,10 @@ CHAPTER VI
 
 <author>BY: HUGO MUNSTERBERG</author>
 
-<p>To picture emotions must be the central aim of the photoplay. In the
+</frontmatter>
+<body>
+
+<p><introduction>To picture emotions must be the central aim of the photoplay. In the
 drama words of wisdom may be spoken and we may listen to the
 conversations with interest even if they have only intellectual and not
 emotional character. But the actor whom we see on the screen can hold
@@ -17,7 +20,7 @@ than in the drama the persons in the photoplay are to us first of all
 subjects of emotional experiences. Their joy and pain, their hope and
 fear, their love and hate, their gratitude and envy, their sympathy and
 malice, give meaning and value to the play. What are the chances of the
-photoartist to bring these feelings to a convincing expression?</p>
+photoartist to bring these feelings to a convincing expression?</p></introduction>
 
 <p>No doubt, an emotion which is deprived of its discharge by words has
 lost a strong element, and yet gestures, actions, and facial play are so
@@ -337,6 +340,8 @@ become remarkable. The characteristic features of many an attitude and
 feeling which cannot be expressed without words today will then be
 aroused in the mind of the spectator through the subtle art of the
 camera.</p>
+
+<break type="chapter"></break>
 
 PART II
 
@@ -719,7 +724,8 @@ struggling life is secured as a joy forever when the painter or the
 sculptor, the dramatist or the poet, the composer or the
 photoplaywright, recomposes nature and life and shows us a unity which
 does not lead beyond itself but is in itself perfectly harmonious.</p>
+</body>
 
+                            <end>THE END</end>
 </text>
 </xml>
-<?xml version="1.0" encoding="UTF-8"?>
