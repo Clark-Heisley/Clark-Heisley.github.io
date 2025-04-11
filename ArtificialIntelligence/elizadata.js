@@ -3,11 +3,10 @@
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
 
 var elizaInitials = [
-//"How do you do.  Please tell me your problem.",
+"How do you do.  Please tell me your problem.",
 // additions (not original)
-//"Please tell me what's been bothering you.",
-//"Is something troubling you ?"
-"Hey, how's it going?"
+"Please tell me what's been bothering you.",
+"Is something troubling you ?"
 ];
 
 var elizaFinals = [
@@ -25,7 +24,6 @@ var elizaQuits = [
 "done",
 "exit",
 "quit"
-"see you later"
 ];
 
 var elizaPres = [
