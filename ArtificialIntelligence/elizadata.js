@@ -3,27 +3,27 @@
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
 
 var elizaInitials = [
-"How do you do.  Please tell me your problem.",
+"Hey bro. Everything good with you?",
 // additions (not original)
-"Please tell me what's been bothering you.",
-"Is something troubling you ?"
+"Want to hangout later and talk?.",
+"What are your plans today?"
 ];
 
 var elizaFinals = [
-"Goodbye.  It was nice talking to you.",
+"Catch you later. I always enjoy our talks.",
 // additions (not original)
-"Goodbye.  This was really a nice talk.",
-"Goodbye.  I'm looking forward to our next session.",
-"This was a good session, wasn't it -- but time is over now.   Goodbye.",
-"Maybe we could discuss this moreover in our next session ?   Goodbye."
+"See ya. I needed this talk man.",
+"Talk to you later. Call me tomorrow when you can.",
+"Dude we've been talking for almost an hour. We should pick this up tomorrow.",
+"Do you want to hangout and get some food tomrrow to talk? Catch you then."
 ];
 
 var elizaQuits = [
 "bye",
-"goodbye",
-"done",
-"exit",
-"quit"
+"peace",
+"later",
+"see ya",
+"catch you later"
 ];
 
 var elizaPres = [
@@ -35,7 +35,7 @@ var elizaPres = [
 "dreamt", "dreamed",
 "dreams", "dream",
 "maybe", "perhaps",
-"certainly", "yes",
+"for sure", "yes",
 "machine", "computer",
 "machines", "computer",
 "computers", "computer",
@@ -90,21 +90,21 @@ var elizaKeywords = [
 
 ["xnone", 0, [
  ["*", [
-     "I'm not sure I understand you fully.",
-     "Please go on.",
-     "What does that suggest to you ?",
-     "Do you feel strongly about discussing such things ?",
-     "That is interesting.  Please continue.",
-     "Tell me more about that.",
-     "Does talking about this bother you ?"
+     "I don't get what you're saying.",
+     "And?",
+     "What do you think?",
+     "You like talking about certain topics?",
+     "Get to the point bro.",
+     "There's more?",
+     "We don't have to talk about it man?"
   ]]
 ]],
 ["sorry", 0, [
  ["*", [
-     "Please don't apologise.",
-     "Apologies are not necessary.",
-     "I've told you that apologies are not required.",
-     "It did not bother me.  Please continue."
+     "Don't worry about it.",
+     "You're good.",
+     "You never have to apologize to me man.",
+     "I'm not offended. Keep goin."
   ]]
 ]],
 ["apologise", 0, [
