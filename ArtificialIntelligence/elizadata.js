@@ -604,7 +604,7 @@ var elizaPostTransforms = [
 	/Are they( always)? me\b/, "it is$1 me",
 	/\bthat your( own)? (\w+)( now)? \?/, "that you have your$1 $2 ?",
 	/\bI to have (\w+)/, "I have $1",
-  /Before you said your( own)? (\w+)( now)?\./, "Before you talked about your $2."
+  /Earlier you said your( own)? (\w+)( now)?\./, "Earlier you talked about your $2."
 ];
 
 // eof
