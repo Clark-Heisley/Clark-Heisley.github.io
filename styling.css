@@ -30,7 +30,8 @@ iframe.eliza {
 	padding-left: 25%;
 	flex-grow: 2;
 	border: none;
-	margin-bottom: 5%
+	margin-bottom: -1%;
+	width: 100%;
 }
 
 div.eliza {
