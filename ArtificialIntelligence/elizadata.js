@@ -6,7 +6,7 @@ var elizaInitials = [
 "Hey bro. Everything good with you?",
 // additions (not original)
 "Want to hangout later and talk?.",
-"What are your plans today?"
+"What are your plans today?",
 ];
 
 var elizaFinals = [
