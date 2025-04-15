@@ -101,10 +101,10 @@ var elizaKeywords = [
 ]],
 ["sorry", 0, [
  ["*", [
-     "Don't worry about it.",
+     "Don't sweat it.",
      "You're good.",
-     "You never have to apologize to me man.",
-     "I'm not offended. Keep goin."
+     "Never apologize to me man.",
+     "You won't hurt my feelings. Keep goin."
   ]]
 ]],
 ["apologise", 0, [
@@ -116,10 +116,10 @@ var elizaKeywords = [
  ["* i remember *", [
      "Do you think about the past (2) ?",
      "Does this remind you (2)of anything else?",
-     "What else do you recall?",
+     "Anything else you remember?",
      "Why makes you think of this (2) just now ?",
-     "What does this make you think of right now (2) ?",
-     "What does this have to do with me (2) ?",
+     "What are you thinkin right now (2) ?",
+     "What;s this gotta do with me (2) ?",
      "Anthing else (2) remind you of ?"
   ]],
  ["* do you remember *", [
@@ -137,18 +137,18 @@ var elizaKeywords = [
 ]],
 ["forget", 5, [
  ["* i forget *", [
-     "Can you think of why you might forget (2) ?",
+     "Why'd you forget (2) ?",
      "Why can't you remember (2) ?",
      "Do you think about it a lot (2) ?",
-     "Does forgetting bother your$1 ?",
-     "Are you trying to forget it ?",
-     "Do you tend to forget ?",
-     "Are you not telling the whole story (2) ?"
+     "Does forgetting bother you $1 ?",
+     "Are you trying to block it out ?",
+     "Are you forgetful ?",
+     "Are leaving stuff out (2) ?"
   ]],
  ["* did you forget *", [
      "Why are you asking ?",
      "Are you sure you told me ?",
-     "Would me forgetting annoy you (2) ?",
+     "Would it annoy you if I forgot (2) ?",
      "Why would I remember (2) just now ?",
      "goto what",
      "What else do you know (2)?"
@@ -159,26 +159,26 @@ var elizaKeywords = [
      "Do you think it's likely that (2) ?",
      "Do you wish that (2) ?",
      "What do you know about (2) ?",
-     "Really, if (2) ?",
+     "For real, if (2) ?",
      "What would you do if (2) ?",
-     "But what are the odds that (2) ?",
+     "But what are the chances that (2) ?",
      "What does this idea lead to ?"
   ]]
 ]],
 ["dreamed", 4, [
  ["* i dreamed *", [
-     "Really, (2) ?",
-     "Do you daydream(2) while you're'awake ?",
-     "Have you ever dreamed (2) before ?",
+     "For real, (2) ?",
+     "Do you daydream(2) when you're'awake ?",
+     "You ever (2) before ?",
      "goto dream"
   ]]
 ]],
 ["dream", 3, [
  ["*", [
      "What do you think that dream means?",
-     "How much do you dream?",
+     "You dream a lot man?",
      "Who are in your dreams?",
-     "Do you think dreams are connected with our problems?"
+     "Do you think dreams are manifested?"
   ]]
 ]],
 ["perhaps", 0, [
@@ -186,21 +186,21 @@ var elizaKeywords = [
      "You don't seem sure.",
      "Why aren't you confident?",
      "Stop being so negative?",
-     "You aren't sure?",
+     "You're not sure?",
      "You didn't know that?",
-     "How much do you wanna bet?"
+     "How much you wanna bet?"
   ]]
 ]],
 ["name", 15, [
  ["*", [
      "I don't care about names.",
-     "I already told you, I don't care about names -- go on."
+     "I already told you, I don't care about names -- continue."
   ]]
 ]],
 ["deutsch", 0, [
  ["*", [
      "goto xforeign",
-     "I already said I don't understandget
+     "I already said I don't understand."
 ]],
 ["francais", 0, [
  ["*", [
@@ -227,19 +227,19 @@ var elizaKeywords = [
 ]],
 ["hello", 0, [
  ["*", [
-     "Hey. What's bothering you.",
-     "Hi. Wanna tell me what's up with you?"
+     "Hey. What's going on.",
+     "Yo. Wanna tell me what's up with you?"
   ]]
 ]],
 ["computer", 50, [
  ["*", [
-     "Do worry about machines?",
+     "Do you worry about machines?",
      "What made you talk about machines?",
-     "What makes you think machines are your problem?",
+     "Why do you think machines are your problem?",
      "Don't you think computers help people ?",
      "Why do machines stress you out?",
      "What's your take on machines'?",
-     "Do you see me only as a computer program?"
+     "Do you just see me as a computer program?"
   ]]
 ]],
 ["am", 0, [
@@ -255,17 +255,17 @@ var elizaKeywords = [
   ]],
  ["*", [
      "Why do you say 'am' ?",
-     "I don't follow."
+     "I don't get it."
   ]]
 ]],
 ["are", 0, [
  ["* are you *", [
      "Why are you curious whether I'm (2) or not ?",
      "Would you like it if I wasn't (2) ?",
-     "Maybe I'm (2) in your imagination.",
+     "Maybe I'm (2) in your head.",
      "Do you sometimes think I am (2) ?",
      "goto what",
-     "Would you care?",
+     "Would you mind?",
      "What if I were (2) ?"
   ]],
  ["* you are *", [
@@ -323,15 +323,15 @@ var elizaKeywords = [
   ]],
  ["* i am* @sad *", [
      "I am sorry to hear that you are (3).",
-     "Do you think coming here will help you avoid (3) ?",
-     "I bet it's not gun to be (3).",
+     "Do you think me being here will help you avoid (3) ?",
+     "I bet it's not meant to be (3).",
      "Can you tell me what made you (3) ?"
   ]],
  ["* i am* @happy *", [
      "How have I helped you become (3) ?",
      "Has your treatment made you (3) ?",
      "What makes you (3) just now ?",
-     "Can you tell me why all the sudden you're (3) ?"
+     "Can you tell me why you're suddenly (3) ?"
   ]],
  ["* i was *", [
      "goto was"
@@ -365,7 +365,7 @@ var elizaKeywords = [
      "Does that bother you ?"
   ]],
  ["* i feel *", [
-     "Tell me more about what you're feeling.",
+     "Tell me what's going on with you man.",
      "Do you feel that way a lot (2) ?",
      "Do you like feeling (2) ?",
      "What does that feeling (2) remind you ?"
@@ -442,15 +442,15 @@ var elizaKeywords = [
      "But your (2)."
   ]],
  ["* my* @family *", [
-     "What else should I know about your family.",
-     "Do you have extended family (4) ?",
+     "What else should I know about our family.",
+     "Do you know about our extended family (4) ?",
      "Your (3) ?",
      "What else do you think of when (3) ?"
   ]],
  ["* my *", [
      "Your (2) ?",
      "Why do you say your (2) ?",
-     "Does that mean anything else belongs to you?",
+     "What else is yours?",
      "Does it matter to you that (2) ?"
   ]]
 ]],
@@ -560,7 +560,7 @@ var elizaKeywords = [
  ["*", [
      "Can you think of something specific?",
      "When?",
-     "What are you thinking of?",
+     "What's on your mind'?",
      "For real, anytime?"
   ]]
 ]],
@@ -568,7 +568,7 @@ var elizaKeywords = [
  ["*", [
      "What do you mean?",
      "Do you see any resemblence?",
-     "What does that similarity mean?",
+     "What does that make you think of?",
      "Did you make any other connections?",
      "What do you think this resemblence means?",
      "What do you think the connection is?",
