@@ -39,3 +39,7 @@ div.eliza {
 	flex-flow: row;
 	height: 100%
 }
+
+section.eliza {
+width: 75%;
+}

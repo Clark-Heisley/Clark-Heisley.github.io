@@ -201,6 +201,7 @@ var elizaKeywords = [
  ["*", [
      "goto xforeign",
      "I already said I don't understand."
+  ]]
 ]],
 ["francais", 0, [
  ["*", [
