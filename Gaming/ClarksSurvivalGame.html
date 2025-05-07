@@ -21,8 +21,6 @@ tw-passage {
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Name" tags="" position="625,250" size="100,100">What is your name? 
 (input-box:2bind $name,&quot;===Michael===&quot;,&quot;Name&quot;)
 
-And what is your favorite color? 
-(input-box:2bind $color,&quot;===Blue===&quot;,&quot;Color&quot;)
 [[Menu]]
 
 </tw-passagedata><tw-passagedata pid="2" name="Menu" tags="" position="475,350" size="100,100">Welcome to my Survival Game!
@@ -46,7 +44,7 @@ Tools ($5)
 
 </tw-passagedata><tw-passagedata pid="5" name="Start" tags="" position="475,500" size="100,100">(text-color:blue)[Your (text-colour:green)[//journey//] awaits!]
 
-(text-colour:blue)[[[Begin your journey.-&gt;Welcome to Day One]]]
+(text-colour:blue)[[[Begin your journey$name-&gt;Welcome to Day One]]]
 
 (set: $money to 100)
 (set: $members to 5)
@@ -60,13 +58,11 @@ Tools ($5)
 
 Before you leave town you will have the chance to buy your first set of supplies.
 
-(if: $tools is true)[You have enough money to buy them. [[Buy supplies]]]
+[You have enough money to buy them. [[Buy supplies]]]
 
-(else:)[You can pass on supplies and save $25. [[Pass on supplies]]]
+[You can pass on supplies and save $25. [[Pass on supplies]]]
 
-</tw-passagedata><tw-passagedata pid="7" name="Pass on supplies" tags="" position="550,750" size="100,100">(set: $money to $money -0)
-
-You didn&#39;t buy supplies, which lowers your chances of survival.
+</tw-passagedata><tw-passagedata pid="7" name="Pass on supplies" tags="" position="550,750" size="100,100">You didn&#39;t buy supplies, which lowers your chances of survival.
 
 [[Leave town]]
 </tw-passagedata><tw-passagedata pid="8" name="Buy supplies" tags="" position="400,750" size="100,100">(set: $money to $money -25)
@@ -75,17 +71,15 @@ You bought supplies to increase your chances of survival.
 
 [[Leave town]]
 
-(set: $tools to 5)
-(set: $medicine to 5)
-(set: $clothes to 5)
-(set: $water to 5)
-(set: $food to 5)</tw-passagedata><tw-passagedata pid="9" name="Leave town" tags="" position="400,875" size="100,100">Now that you&#39;re on the road, you should know what challenges you may face depending on your choices.
+(set: $tools to $tools + 5)
+(set: $medicine to $medicine + 5)
+(set: $clothes to $clothes + 5)
+(set: $water to $water + 5)
+(set: $food to $food + 5)</tw-passagedata><tw-passagedata pid="9" name="Leave town" tags="" position="400,875" size="100,100">Now that you&#39;re on the road, you should know what challenges you may face depending on your choices.
 
 [[Challenges]]</tw-passagedata><tw-passagedata pid="10" name="Challenges" tags="" position="550,875" size="100,100">Some challenges you will face will be related to weather, health, and environmental conditions.
 
 The choices you make throughout will either help you or put you at a disadvantage.
-
-And remember, (text-color:purple)[//TIME//] is the one thing you must watch the most!
 
 [[Continue]]
 
@@ -96,7 +90,7 @@ And remember, (text-color:purple)[//TIME//] is the one thing you must watch the 
 (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Get water from the pond-&gt;Go to pond]]
 </tw-passagedata><tw-passagedata pid="13" name="Go to pond" tags="" position="450,1250" size="100,100">You found water, but the water was dirty leaving your group sick. The only thing that will help is if your group use all the medicine from your supplies.
 
-(if:$medicine is true)[Luckily, you bought supplies at the town. [[Use medicine]].]
+(if:$medicine &gt; 5)[Luckily, you bought supplies at the town. [[Use medicine]].]
 
 (else:)[Your group can&#39;t take medicine because you didn&#39;t buy supplies. (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Remain sick]]]</tw-passagedata><tw-passagedata pid="14" name="Use medicine" tags="" position="375,1375" size="100,100">Your group is healthy and you survived the first night. Good job!
 
@@ -153,17 +147,17 @@ Up to this point you&#39;ve lost some members, but the rest of the group must pr
 (else:)[You pass on supplies saving $25. (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Don&#39;t buy supplies]]]</tw-passagedata><tw-passagedata pid="25" name="Restock supplies" tags="" position="450,1825" size="100,100">You refilled your supplies! 
 Something you couldn&#39;t do at the first supply restock was buy extra supplies. 
 
-(if: $supplies is true)[You can buy more of a specific supply for $5 dollars. [[Buy extra]].]
+(if: $supplies is true)[You can buy extra supplies for $25 dollars. [[Buy extra]].]
 
 (else:)[Pass on extra supplies. (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Move on]]]
 
 (set: $money to $money -25)
 
-(set: $tools to 5)
-(set: $medicine to 5)
-(set: $clothes to 5)
-(set: $water to 5)
-(set: $food to 5)</tw-passagedata><tw-passagedata pid="26" name="Don&#39;t buy supplies" tags="" position="675,1775" size="100,100">Skipping on supplies again puts your group at high risk of not surviving your journey.
+(set: $tools to $tools +10)
+(set: $medicine to $medicine +10)
+(set: $clothes to $clothes + 10)
+(set: $water to $water + 10)
+(set: $food to $food +10)</tw-passagedata><tw-passagedata pid="26" name="Don&#39;t buy supplies" tags="" position="675,1775" size="100,100">Skipping on supplies again puts your group at high risk of not surviving your journey.
 
 (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Later that day]]</tw-passagedata><tw-passagedata pid="27" name="Buy extra" tags="" position="350,2000" size="100,100">You bought extra supplies! The chances of making it has increased.
 
@@ -188,6 +182,8 @@ Something you couldn&#39;t do at the first supply restock was buy extra supplies
 (set: $tools to $tools -10)</tw-passagedata><tw-passagedata pid="31" name="Don&#39;t secure van" tags="" position="500,2250" size="100,100">You didn&#39;t secured your van and it blew away because of the tornado leaving your group vulnerable.
 
 A piece of the van flew into one of your group member&#39;s leg cutting it. Use the medicine to prevent infection.
+
+Not using medicine will be fatal to your member&#39;s life.
 
 (b4r:&quot;solid&quot;)+(corner-radius:10)+(bg:white)[[Go to Day 4]]
 
